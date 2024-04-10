@@ -77,6 +77,7 @@ const num55 = 30;
 const num60 = 28;
 const num75 = 23;
 
+// How many gallons of fuel you will need for the entire trip 
 const gallon1 = (distance) / (num55);
 console.log("Going 55 miles an hour it is going to take " + gallon1 + "gallons")
 //-------> Going 55 miles an hour it is going to take 50gallons
@@ -89,3 +90,19 @@ const gallon3 = (distance) / (num75);
 console.log("Going 75 miles an hour it is going to take " + gallon3 + " gallons")
 //-------> Going 75 miles an hour it is going to take 65.21739130434783 gallons
 
+// Will your budget be enough to cover fuel expenses
+
+const budget1 = (fuelCost) * (gallon1);
+console.log("It's going to cost " + "$" + budget1 + " going 55 mph")
+//------> It's going to cost $150 going 55 mph
+
+const budget2 = (fuelCost) * (gallon2);
+console.log("It's going to cost " + "$" + budget2 + " going 60 mph")
+//------> It's going to cost $160.71428571428572 going 60 mph
+
+const budget3 = (fuelCost) * (gallon3);
+console.log("It's going to cost " + "$" + budget3 + " going 60 mph")
+//------> It's going to cost $195.6521739130435 going 60 mph
+// This will not fit in the budget
+
+//How long will the trip take
