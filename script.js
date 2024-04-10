@@ -120,3 +120,7 @@ console.log("It will take " + hour3 + " hours going 75 mph")
 //------> It will take 20 hours going 75 mph
 
 
+//Comparing the results
+
+console.log("When traveling " + 60 + "mph, driving " + distance + " miles will take " + hour2 + " hours, requiring " + gallon2 + " gallons, and cost $160 which is less than your $" + budget) 
+//------> When traveling 60mph, driving 1500 miles will take 25 hours, requiring 53.57142857142857 gallons, and cost $160 which is less than your  $175
