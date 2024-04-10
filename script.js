@@ -5,12 +5,14 @@ const n3 = 20;
 const n4 = 5;
 
 // Numbers divisible by 5
-
 const divBy5 = (n1 % 5) + (n2 % 5) + (n3 % 5) + (n4 % 5) === 0;
 console.log("Numbers divisible by 5 " + (divBy5) )
 //------> Numbers divisible by 5 true
 
-
+//First number larger than last
+const firstLarger = (n1 > n4);
+console.log("First number larger than last " + (firstLarger))
+//-------> First number larger than last true
 
 
 
