@@ -71,4 +71,21 @@ console.log("The results are as followed " + (isValid))
 
 const distance = 1500;
 const budget = 175;
+const fuelCost =3;
+
+const num55 = 30;
+const num60 = 28;
+const num75 = 23;
+
+const gallon1 = (distance) / (num55);
+console.log("Going 55 miles an hour it is going to take " + gallon1 + "gallons")
+//-------> Going 55 miles an hour it is going to take 50gallons
+
+const gallon2 = (distance) / (num60);
+console.log("Going 60 miles an hour it is going to take " + gallon2 + " gallons")
+//-------> Going 60 miles an hour it is going to take 53.57142857142857 gallons
+
+const gallon3 = (distance) / (num75);
+console.log("Going 75 miles an hour it is going to take " + gallon3 + " gallons")
+//-------> Going 75 miles an hour it is going to take 65.21739130434783 gallons
 
