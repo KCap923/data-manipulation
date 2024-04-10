@@ -14,8 +14,10 @@ const firstLarger = (n1 > n4);
 console.log("First number larger than last " + (firstLarger))
 //-------> First number larger than last true
 
-
-
+//Subtract first number from second
+const firstSecond = (n1) - (n2);
+console.log("Subtracting first number from the second " + (firstSecond))
+//-------> Subtracting first number from the second -5
 
 
 // Check one: add up to 50
