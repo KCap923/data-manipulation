@@ -105,4 +105,18 @@ console.log("It's going to cost " + "$" + budget3 + " going 60 mph")
 //------> It's going to cost $195.6521739130435 going 60 mph
 // This will not fit in the budget
 
-//How long will the trip take
+//How long will the trip take in hours
+
+const hour1 = (distance) / (55);
+console.log("It will take " + hour1 + " hours going 55 mph")
+//-------> It will take 27.272727272727273 hours going 55 mph
+
+const hour2 = (distance) / (60);
+console.log("It will take " + hour2 + " hours going 60 mph")
+//-------> It will take 25 hours going 60 mph
+
+const hour3 = (distance) / (75);
+console.log("It will take " + hour3 + " hours going 75 mph")
+//------> It will take 20 hours going 75 mph
+
+
